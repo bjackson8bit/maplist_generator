@@ -1,0 +1,153 @@
+{
+    "tournament_type": "double_elim",
+    "num_players": 14,
+    "map_pool": {
+        "Splat Zones": [
+            "Ancho-V Games",
+            "Blackbelly Skatepark",
+            "Inkblot Art Academy",
+            "MakoMart",
+            "New Albacore Hotel",
+            "Piranha Pit",
+            "Shellendorf Institute",
+            "Starfish Mainstage",
+            "Wahoo World"
+        ],
+        "Tower Control": [
+            "Ancho-V Games",
+            "Inkblot Art Academy",
+            "Manta Maria",
+            "Shellendorf Institute",
+            "Starfish Mainstage",
+            "Sturgeon Shipyard",
+            "The Reef"
+        ],
+        "Rainmaker": [
+            "Blackbelly Skatepark",
+            "Humpback Pump Track",
+            "MakoMart",
+            "Manta Maria",
+            "Musselforge Fitness",
+            "Snapper Canal",
+            "Sturgeon Shipyard"
+        ],
+        "Clam Blitz": [
+            "Humpback Pump Track",
+            "Musselforge Fitness",
+            "New Albacore Hotel",
+            "Piranha Pit",
+            "Snapper Canal",
+            "The Reef",
+            "Wahoo World"
+        ]
+    },
+    "rounds": [
+        {
+            "round_name": "Winners Round 1",
+            "num_games": 3,
+            "stages": [
+                "Splat Zones on Wahoo World",
+                "Clam Blitz on Musselforge Fitness",
+                "Tower Control on The Reef"
+            ]
+        },
+        {
+            "round_name": "Winners Quarterfinals",
+            "num_games": 3,
+            "stages": [
+                "Rainmaker on Blackbelly Skatepark",
+                "Splat Zones on Ancho-V Games",
+                "Clam Blitz on Piranha Pit"
+            ]
+        },
+        {
+            "round_name": "Winners Semifinals",
+            "num_games": 3,
+            "stages": [
+                "Clam Blitz on Piranha Pit",
+                "Tower Control on Ancho-V Games",
+                "Rainmaker on Humpback Pump Track"
+            ]
+        },
+        {
+            "round_name": "Winners Finals",
+            "num_games": 5,
+            "stages": [
+                "Rainmaker on Musselforge Fitness",
+                "Splat Zones on Wahoo World",
+                "Clam Blitz on Snapper Canal",
+                "Tower Control on Manta Maria",
+                "Rainmaker on MakoMart"
+            ]
+        },
+        {
+            "round_name": "Grand Finals",
+            "num_games": 5,
+            "stages": [
+                "Clam Blitz on Musselforge Fitness",
+                "Tower Control on Shellendorf Institute",
+                "Rainmaker on Blackbelly Skatepark",
+                "Splat Zones on MakoMart",
+                "Clam Blitz on Snapper Canal"
+            ]
+        },
+        {
+            "round_name": "Losers Round 1",
+            "num_games": 3,
+            "stages": [
+                "Rainmaker on Blackbelly Skatepark",
+                "Splat Zones on Ancho-V Games",
+                "Clam Blitz on Piranha Pit"
+            ]
+        },
+        {
+            "round_name": "Losers Round 2",
+            "num_games": 3,
+            "stages": [
+                "Tower Control on Starfish Mainstage",
+                "Rainmaker on Musselforge Fitness",
+                "Splat Zones on MakoMart"
+            ]
+        },
+        {
+            "round_name": "Losers Round 3",
+            "num_games": 3,
+            "stages": [
+                "Clam Blitz on Piranha Pit",
+                "Tower Control on Ancho-V Games",
+                "Rainmaker on Humpback Pump Track"
+            ]
+        },
+        {
+            "round_name": "Losers Round 4",
+            "num_games": 3,
+            "stages": [
+                "Splat Zones on Inkblot Art Academy",
+                "Clam Blitz on New Albacore Hotel",
+                "Tower Control on Starfish Mainstage"
+            ]
+        },
+        {
+            "round_name": "Losers Semifinals",
+            "num_games": 5,
+            "stages": [
+                "Rainmaker on Musselforge Fitness",
+                "Splat Zones on Wahoo World",
+                "Clam Blitz on Snapper Canal",
+                "Tower Control on Manta Maria",
+                "Rainmaker on MakoMart"
+            ]
+        },
+        {
+            "round_name": "Losers Finals",
+            "num_games": 5,
+            "stages": [
+                "Splat Zones on Ancho-V Games",
+                "Clam Blitz on The Reef",
+                "Tower Control on Inkblot Art Academy",
+                "Rainmaker on Humpback Pump Track",
+                "Splat Zones on Starfish Mainstage"
+            ]
+        }
+    ]
+}
