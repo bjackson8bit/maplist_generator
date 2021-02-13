@@ -1,11 +1,6 @@
 import json
 import sys
 import csv
-"""Coverts tournament data output by tournament_gen.py to
-   EGTV Readable CSV Format
-   
-   author: NintenZone
-"""
 
 if len(sys.argv) == 2:
     print("Creating files...")
@@ -58,10 +53,12 @@ if len(sys.argv) == 2:
                                   quotechar='"', quoting=csv.QUOTE_MINIMAL)
         roundsWriter.writerow(rounds_header)
         for rounds in data["rounds"]:
-            next_row = [rounds["round_name"], rounds["round_name"], 0, rounds["num_games"]]
+            next_row = [rounds["round_name"], rounds["round_name"], 0, rounds["num_games"], "Best of " + str(rounds["num_games"])]
             for stages in rounds["stages"]:
                 map_mode = stages.split(" on ")
                 next_row.append(map_mode[0])
+                if (len(map_mode) < 2):
+                    map_mode.append(map_mode[0])
                 next_row.append(map_mode[1])
             roundsWriter.writerow(next_row)
 
@@ -81,9 +78,11 @@ if len(sys.argv) == 2:
 
     for rounds in data["rounds"]:
         discord_lines.append("**" + rounds["round_name"] + "**")
+        game = 1
         for maps in rounds["stages"]:
-            discord_lines.append(maps)
-        discord_lines.append("")
+            discord_lines.append("Game " + str(game) + ": " + maps)
+            game += 1
+        game = 1
 
     length = 0
 
