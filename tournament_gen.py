@@ -228,7 +228,7 @@ def create_double_elim_tournament(mapmode_list, tournament_dict):
 		output_rounds.append(round_to_dict(f"Losers {get_round_name(i, num_losers_rounds)}", losers_rounds[i]))
 
 	output_rounds.append(round_to_dict("Grand Finals", gf_rd))
-	output_rounds.append(round_to_dict("Grand Finals Set 2 (If needed)", gf_reset_rd))
+	output_rounds.append(round_to_dict("Grand Finals (Reset)", gf_reset_rd))
 
 	output_dict = {
 		'tournament_type': 'double_elim',

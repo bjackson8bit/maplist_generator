@@ -34,6 +34,18 @@
                         "game_num": 1
                     }
                 ]
+            },
+			"grand_finals_reset": {
+                "num_games": 5,
+                "ignore_game_history": true,
+                "map_quality": "very high",
+                "counterpicks": true,
+                "game_overrides": [
+                    {
+                        "mode": "Splat Zones",
+                        "game_num": 1
+                    }
+                ]
             }
         }
     }
