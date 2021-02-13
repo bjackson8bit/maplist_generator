@@ -2,6 +2,7 @@
     "tournament_type": "double_elim",
     "tournament_config": {
         "num_players": 23,
+
         "round_config": {
             "default": {
                 "num_games": 3

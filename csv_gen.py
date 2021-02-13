@@ -53,7 +53,6 @@ if len(sys.argv) == 2:
                                   quotechar='"', quoting=csv.QUOTE_MINIMAL)
         roundsWriter.writerow(rounds_header)
         for rounds in data["rounds"]:
-          
             next_row = [rounds["round_name"], rounds["round_name"], 0, rounds["num_games"], "Best of " + str(rounds["num_games"])]
             for stages in rounds["stages"]:
                 map_mode = stages.split(" on ")
