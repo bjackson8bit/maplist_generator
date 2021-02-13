@@ -58,6 +58,8 @@ if len(sys.argv) == 2:
             for stages in rounds["stages"]:
                 map_mode = stages.split(" on ")
                 next_row.append(map_mode[0])
+                if (len(map_mode) < 2):
+                    map_mode.append(map_mode[0])
                 next_row.append(map_mode[1])
             roundsWriter.writerow(next_row)
 
